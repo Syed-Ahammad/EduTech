@@ -214,8 +214,8 @@
             <div class="col-lg-5 col-12 ms-lg-0 ms-4">
               <img class="img-fluid d-block" src="images/working.png" alt="">
             </div>
-            <div class="col-lg-7 col-12 py-3 px-4 bg-success bg-opacity-10">
-              <h1 class="card-header text-start">Explore The elearning
+            <div class="col-lg-7 col-12 py-lg-5 py-3 px-4 bg-success bg-opacity-10">
+              <h1 class="py-4 card-header text-start">Explore The elearning
                 Institute</h1>
                 <p class="text-start">An institute is an organisational body created for a certain purpose. They are often research organisations created to do research on specific topics.</p><br>
                 <p class="text-start">An institute of technology (also referred to as: technological university, technical university, university of technology, technological educational institute.</p>
@@ -240,40 +240,93 @@
           </div>
         </div>
         <!-- modal star -->
-              <div>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+        <div class="d-flex justify-content-between align-items-center bg-primary text-light p-5 rounded my-5">
+          <div class="w-50">
+            <h2>Ready to join?</h2>
+            <p>You can join with us. Click Register button , fill-up the form and let's get started now. I hope you will stay satisfy with us. </p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-light text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
 
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">Recipient:</label>
-                  <input type="text" class="form-control" id="recipient-name">
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">New message</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                  </div>
                 </div>
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">Message:</label>
-                  <textarea class="form-control" id="message-text"></textarea>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Send message</button>
-            </div>
+              </div>
           </div>
         </div>
-      </div>
-              </div>
+             
         <!-- modal end -->
        </section>
 
        <!-- institute about end -->
+
+        <!-- successful students star -->
+
+
+        <section>
+         <div class="w-50 m-md-0 m-auto text-md-start text-center">
+          <h1 class="fw-bold py-4">Meet Our Successfull Students</h1>
+          <p>It is a long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout.</p>
+         </div>
+         <div class="row text-md-start text-center">
+          <div class="col-12 col-md-6 col-lg-3 rounded">
+                  <img class="img-fluid" src="images/student/student-1.png" alt="">
+                  <div class="px-4 py-2 border rounded-bottom">
+                    <h4>Awlad Hossain</h4>
+                    <p>UI/UX Designer</p>
+                  </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 rounded">
+            <img class="img-fluid" src="images/student/student-2.png" alt="">
+            <div class="px-4 py-2 border rounded-bottom">
+              <h4>Jannatul Islam</h4>
+              <p>Motion Design</p>
+            </div>
+           </div>
+         
+           <div class=" col-12 col-md-6 col-lg-3 rounded">
+            <img class="img-fluid" src="images/student/student-3.png" alt="">
+            <div class="px-4 py-2 border rounded-bottom">
+              <h4>Imran Hossain</h4>
+              <p>Web Developer</p>
+            </div>
+           </div>
+           <div class="col-12 col-md-6 col-lg-3 rounded">
+            <img class="img-fluid" src="images/student/student-4.png" alt="">
+            <div class="px-4 py-2 border rounded-bottom">
+              <h4>Nishi Akter</h4>
+              <p>Graphic Designer</p>
+            </div>
+           </div>
+        </div>
+        
+         <div class="cot-12 text-center pt-4 pb-5">
+          <button class="btn btn-primary fw-bold px-4 py-2" type="submit">View All</button>
+        </div>
+
+        </section>
+        <!-- successful students end -->
 
 
      
